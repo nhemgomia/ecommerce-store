@@ -11,8 +11,13 @@ import './globals.css'
 const font = Urbanist({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'E-Store',
-  description: 'Digital Store',
+  title: 'Ecommerce Store',
+  description: 'Welome to Ecomerce Store. Shop from classic tees to the freshest sunglassess, and more.',
+  openGraph: {
+    title: 'Ecommerce Store',
+    description: 'Welome to Ecomerce Store. Shop from classic tees to the freshest sunglassess, and more.',
+    images: 'https://res.cloudinary.com/dhb7wgkvi/image/upload/v1690515767/opengraph-store_qnhjoj.png'
+  }
 }
 
 export default function RootLayout({
